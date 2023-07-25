@@ -19,14 +19,16 @@ a {
 
 
 
+/* ШАПКА */
+
 .header {
     background-color: rgba(2, 114, 160, 0.75);
     display: flex;
-    gap: 400px;
+    justify-content: space-between;
 }
 
 .logo__crown {
-    height: 40px;
+    height: 45px;
     padding-top: 20px;
 }
 
@@ -44,6 +46,8 @@ a {
     line-height: normal;
 }
 
+
+
 .menu__current__item {
     color: #ffebfb;
     font-size: 17px;
@@ -58,10 +62,12 @@ a {
 
 
 
+/* ОСНОВНОЙ КОНТЕНТ */
+
 .top__content {
     padding-top: 64px;
     display: flex;
-    gap: 40px;
+    justify-self: start;;
     
 }
 
@@ -85,10 +91,35 @@ a {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 12px;
-
-    
 }
 
 .main__photo {
-    height: 375px;
+    max-width: 375px;
+    min-height: auto;
+}
+
+
+/* ФУТЕР */
+
+.footer {
+    height: 100%;
+    margin-top: 200px;
+    background-color: rgba(2, 114, 160, 0.80);
+}
+
+.foot__header {
+    color: #ffebfb;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.foot__logos {
+    padding-bottom: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
 }
