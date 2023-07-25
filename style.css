@@ -40,7 +40,7 @@ a {
 }
 
 .menu__item {
-    color: #ffebfb;
+    color: #fedaf6;
     font-size: 17px;
     font-weight: 200;
     line-height: normal;
@@ -51,7 +51,7 @@ a {
 .menu__current__item {
     color: #ffebfb;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: normal;
 }
 
@@ -67,7 +67,7 @@ a {
 .top__content {
     padding-top: 64px;
     display: flex;
-    justify-self: start;;
+    justify-self: start;
     
 }
 
@@ -94,8 +94,8 @@ a {
 }
 
 .main__photo {
-    max-width: 375px;
-    min-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
