@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Geologica', sans-serif;
-    background: url(img/background.jpg) repeat;
+    background: url(img/general/background.jpg) repeat;
 }
 
 a {
@@ -27,9 +27,19 @@ a {
     justify-content: space-between;
 }
 
+.menu__logo {
+    display: flex;
+    gap: 10px;
+}
+
 .logo__crown {
-    height: 45px;
+    height: 40px;
     padding-top: 20px;
+}
+
+.logo__karp {
+    height: 20px;
+    padding-top: 39px;
 }
 
 .menu {
@@ -68,11 +78,11 @@ a {
     padding-top: 64px;
     display: flex;
     justify-self: start;
-    
+    gap: 50px;
 }
 
 .top__content__info {
-    width: 692px;
+    width: 600px;
 }
 
 .header1 {
@@ -91,6 +101,7 @@ a {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 12px;
+    text-align: justify;
 }
 
 .main__photo {
@@ -98,10 +109,42 @@ a {
     height: auto;
 }
 
+.about__images {
+    display: grid;
+    grid-template-columns: 225px 225px;
+    grid-template-rows: 225px 225px 225px;
+    align-items: stretch;
+    gap: 30px
+}
+
+.about__img1 {
+    max-width: 225px;
+}
+
+.about__img2 {
+    max-width: 225px;
+    grid-row: 1 / 3;
+    grid-column: 2;
+
+}
+
+.about__img3 {
+    max-width: 225px;
+    grid-row: 2 / 4;
+}
+
+.about__img4 {
+    max-width: 225px;
+    grid-row: 3;
+    grid-column: 2;
+}
+
+
+
+
+
 
 /* ФУТЕР */
-
-
 
 .footer {
     height: 100%;
