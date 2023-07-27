@@ -78,8 +78,8 @@ a {
     padding-top: 64px;
     display: flex;
     justify-self: start;
-    gap: 50px;
-    margin-bottom: 130px;
+    gap: 80px;
+    margin-bottom: 100px;
 }
 
 .top__content__info {
@@ -141,6 +141,42 @@ a {
     grid-column: 2;
 }
 
+.nails__photo__header {
+    padding-top: 40px;
+    color: #0fa3d1;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.nails__gallery {
+    padding-top: 10px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-row-gap: 45px;
+    grid-column-gap: 33px;
+    justify-content: end;
+
+}
+
+.nails__item {
+    border: 0px solid #0fa3d1;
+    height: 194px;
+    gap: 0px;
+}
+
+
+.nails__paragraph {
+    color: #0fa3d1;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
 
 
 
