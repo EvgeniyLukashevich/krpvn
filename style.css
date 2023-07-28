@@ -124,8 +124,10 @@ a {
     margin-bottom: 45px;
     height: 380px;
     background-color: rgba(2, 114, 160, 0.30);
+    box-shadow: 15px 25px 60px -5px rgba(2, 114, 160, 0.25);
     
 }
+
 
 .middle__content__icon {
     height: 60px;
