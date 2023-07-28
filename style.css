@@ -75,11 +75,11 @@ a {
 /* ОСНОВНОЙ КОНТЕНТ */
 
 .top__content {
-    padding-top: 64px;
+    padding-top: 100px;
     display: flex;
-    justify-self: start;
-    gap: 80px;
-    margin-bottom: 205px;
+    justify-content: start;
+    gap: 100px;
+    margin-bottom: 165px;
 }
 
 .top__content__info {
@@ -115,7 +115,7 @@ a {
     background-color: rgba(2, 114, 160, 0.15);
     display: grid;
     grid-template-columns: repeat(3, 300px);
-    gap: 45px;
+    gap: 55px;
     justify-content: center;
 }
 
