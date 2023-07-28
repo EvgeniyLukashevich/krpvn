@@ -148,7 +148,7 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 17px;
+    margin-bottom: 35px;
 }
 
 .nails__gallery {
@@ -156,7 +156,7 @@ a {
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(5, 200px);
-    grid-row-gap: 45px;
+    grid-row-gap: 75px;
     grid-column-gap: 33px;
     justify-content: end;
 
