@@ -134,7 +134,7 @@ a {
 }
 
 .middle__content__item {
-    max-width: 300px;
+    width: 300px;
     margin-top: 45px;
     margin-bottom: 45px;
     height: 380px;
