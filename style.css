@@ -26,6 +26,7 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .menu__logo {
@@ -87,10 +88,11 @@ a {
 
 .top__content__info {
     max-width: 660px;
-    background-color: rgba(2, 114, 160, 0.15);
+    background-color: rgba(2, 114, 160, 0.20);
     display: grid;
     justify-items: start;
     align-content: space-evenly;
+    box-shadow: 15px 25px 60px -5px rgba(2, 114, 160, 0.10);
 }
 
 .header1 {
