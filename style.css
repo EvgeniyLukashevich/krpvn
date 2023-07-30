@@ -36,6 +36,10 @@ a {
     gap: 10px;
 }
 
+.menu__logo:hover {
+    transform: scale(1.1);
+}
+
 .logo__crown {
     height: 40px;
     padding-top: 20px;
@@ -60,6 +64,10 @@ a {
     font-size: 17px;
     font-weight: 200;
     line-height: normal;
+}
+
+.menu__item:hover {
+    transform: scale(1.1);
 }
 
 
@@ -136,6 +144,11 @@ a {
     max-width: 100%;
     height: auto;
 }
+
+.main__photo:hover {
+    transform: scale(3.5);
+}
+
 
 
 .top__content__info__icons {
