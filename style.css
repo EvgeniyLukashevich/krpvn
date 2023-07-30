@@ -25,6 +25,7 @@ a {
     background-color: rgba(2, 114, 160, 0.75);
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu__logo {
@@ -47,6 +48,7 @@ a {
     padding-bottom: 39px;
     display: flex;
     gap: 35px;
+    flex-wrap: wrap;
 }
 
 .menu__item {
@@ -78,12 +80,17 @@ a {
     padding-top: 100px;
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
     gap: 100px;
     margin-bottom: 165px;
 }
 
 .top__content__info {
-    width: 600px;
+    max-width: 660px;
+    background-color: rgba(2, 114, 160, 0.15);
+    display: grid;
+    justify-items: start;
+    align-content: space-evenly;
 }
 
 .header1 {
@@ -92,7 +99,9 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
 }
 
 .paragraph {
@@ -101,14 +110,17 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 12px;
     text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+
 .main__photo {
-    max-width: 100%;
-    height: auto;
+
 }
+
+
 
 
 .middle__content {
@@ -127,7 +139,6 @@ a {
     box-shadow: 15px 25px 60px -5px rgba(2, 114, 160, 0.25);
     
 }
-
 
 .middle__content__icon {
     height: 60px;
@@ -282,6 +293,7 @@ a {
     height: 20px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .footer__main {
