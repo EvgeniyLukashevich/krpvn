@@ -127,13 +127,14 @@ a {
 
 .middle__content {
     background-color: rgba(2, 114, 160, 0.15);
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
+    display: flex;
+    flex-wrap: wrap;
     gap: 55px;
     justify-content: center;
 }
 
 .middle__content__item {
+    max-width: 300px;
     margin-top: 45px;
     margin-bottom: 45px;
     height: 380px;
