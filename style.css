@@ -27,6 +27,7 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 100%;
+    min-width: 400px;
 }
 
 .menu__logo {
@@ -80,30 +81,34 @@ a {
 .top__content {
     padding-top: 100px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 100px;
-    margin-bottom: 165px;
+    margin-bottom: 160px;
+    gap: 30px
 }
 
 .top__content__info {
     max-width: 660px;
+    min-width: 400px;
+    min-height: 300px;
     background-color: rgba(2, 114, 160, 0.20);
     display: grid;
     justify-items: start;
-    align-content: space-evenly;
-    box-shadow: 15px 25px 60px -5px rgba(2, 114, 160, 0.10);
+    align-content: space-between;
+    box-shadow: 15px 25px 60px -5px rgba(2, 114, 160, 0.15);
+    
 }
 
 .header1 {
-    color: #0fa3d1;
+    color: #0d9eca;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
+    padding-top: 15px;
 }
 
 .paragraph {
@@ -115,11 +120,20 @@ a {
     text-align: justify;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 25px;
 }
 
+.top__content__photobox {
+    max-width: 100%;
+    height: auto;
+    
+    justify-content: center;
+    align-items: center;
+}
 
 .main__photo {
-
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -131,13 +145,14 @@ a {
     flex-wrap: wrap;
     gap: 55px;
     justify-content: center;
+    min-width: 400px;
 }
 
 .middle__content__item {
     width: 300px;
     margin-top: 45px;
     margin-bottom: 45px;
-    height: 380px;
+    min-height: 380px;
     background-color: rgba(2, 114, 160, 0.30);
     box-shadow: 15px 25px 60px -5px rgba(2, 114, 160, 0.25);
     
@@ -287,20 +302,25 @@ a {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-bottom: 15px;
-
+    padding-top: 15px;
+    padding-right: 30px;
 }
 
 .foot__logos {
-    padding-top: 10px;
+    padding-top: 15px;
     height: 20px;
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
     
 }
 
 .footer__main {
     bottom: 0;
-    height: 40px; /* высота футера */
+    min-height: 40px; /* высота футера */
+    min-width: 400px;
     background-color: rgba(2, 114, 160, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
 }
