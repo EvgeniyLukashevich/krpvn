@@ -335,7 +335,15 @@ a {
 
 
 
-.nails__camera__header {
+.nails__content{
+    flex: 1;
+}
+
+.nails__camera__header{
+    min-width: 400px;
+}
+
+.nails__camera__header h1{
     padding-top: 40px;
     color: #0fa3d1;
     font-size: 30px;
@@ -343,26 +351,38 @@ a {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 50px;
+    padding-left: 50px;
 }
 
 .nails__gallery {
     padding-top: 10px;
     margin-bottom: 100px;
     display: grid;
-    grid-template-columns: repeat(5, 194px);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-row-gap: 75px;
-    grid-column-gap: 33px;
-    justify-content: end;
+    justify-items: center;
+    min-width: 400px;
 
 }
 
 .nails__item {
     border: 0px solid rgba(2, 114, 160, 0.35);
-    height: 230px;
+    max-width: 194px;
+    min-width: 140px;
+    height: auto;
     background-color: rgba(2, 114, 160, 0.45);
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.15);
 }
 
+.nails__photo {
+    max-width: 194px;
+    min-width: 140px;
+    height: auto;
+}
+
+.nails__photo:hover {
+    transform: scale(1.3);
+}
 
 .nails__paragraph {
     color: #0b607a;
@@ -372,7 +392,69 @@ a {
     line-height: normal;
     text-align: center;
     margin-top: 3px;
+    padding-bottom: 10px;
 }
+
+
+
+
+.contact__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact__info {
+    max-width: 440px;
+    min-width: auto;
+    height: 330px;
+    margin-top: 30px;
+    background-color: rgba(2, 114, 160, 0.20);
+    box-shadow: 15px 25px 60px -5px rgba(2, 114, 160, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact__info h1 {
+    color: #0fa3d1;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact__info p {
+    color: #0b607a;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: justify;
+    padding-left: 15px;
+}
+
+.contact__info__item {
+    padding: 15px;
+}
+
+.contact__social__icons {
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contact__social__icons img {
+    height: 25px;
+}
+
+
+
+
 
 
 
