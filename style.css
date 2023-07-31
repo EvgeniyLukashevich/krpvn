@@ -86,7 +86,7 @@ a {
     font-size: 17px;
     font-weight: 200;
     line-height: normal;
-    transform: scale(0.9);
+    transform: scale(0.92);
 }
 
 .menu__img {
@@ -398,6 +398,59 @@ a {
 
 
 
+.camera__content {
+    flex: 1;
+}
+
+.camera__content h1{
+    padding-top: 40px;
+    color: #0fa3d1;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+.camera__gallery {
+    padding-top: 10px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-row-gap: 30px;
+    justify-items: center;
+    min-width: 400px;
+}
+
+.camera__gallery img {
+    width: 300px;
+    border: 7px solid rgba(2, 114, 160, 0.35);
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.15);
+}
+
+.camera__gallery img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact__content {
     flex: 1;
     display: flex;
@@ -445,7 +498,7 @@ a {
     justify-content: flex-end;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 30px;
+    gap: 35px;
 }
 
 .contact__social__icons img {
